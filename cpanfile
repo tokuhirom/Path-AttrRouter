@@ -5,7 +5,7 @@ requires 'Data::Util';
 requires 'Class::Data::Inheritable';
 requires 'Try::Tiny';
 
-on configure => sub {
+on devel => sub {
     requires 'Module::Install';
     requires 'Module::Install::Repository';
     requires 'Module::Install::CPANfile';
