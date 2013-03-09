@@ -10,6 +10,7 @@ on configure => sub {
     requires 'Module::Install::Repository';
     requires 'Module::Install::CPANfile';
     requires 'Module::Install::TestBase';
+    requires 'Module::Install::AuthorTests';
 };
 
 on 'test' => sub {
